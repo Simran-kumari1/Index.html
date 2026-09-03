@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html resherlang="en">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simran - Portfolio</title>
+    <title> Portfolio</title>
 </head>
 
 <body>
 
     <header>
-        <h1>Simran</h1>
-        <h3>CSE Fresher</h3>
+        <h1>Simran Kumari</h1>
+        <h3>CSE Undergraduate | 2nd year</h3>
 
         <hr>
     </header>
@@ -19,15 +17,8 @@
 
         <table width="100%">
             <tr>
-                <td width="25%" align="center">
-                    <fieldset>
-                        <br><br><br>
-                        <h3>[ PHOTO ]</h3>
-                        <br><br><br>
-                    </fieldset>
-                </td>
 
-                <td width="5%"></td>
+                <td width="1%"></td>
 
                 <td width="70%">
                     <h2>About Me</h2>
@@ -73,6 +64,13 @@
         <hr>
     </section>
 
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            A shopping website
+        </ul>
+
+    </section>
 
         <h2>Academics</h2>
 
@@ -163,7 +161,7 @@
 
                     <h3>Direct Contact:</h3>
 
-                    <a href="r33124173@gmail.com">
+                    <a href="mailto:simrankumari2172008@gmail.com">simrankumari2172008@gmail.com
                         
                     </a>
 
@@ -180,7 +178,7 @@
         <hr>
 
         <p align="center">
-            2026 simran website
+           &copy; 2026 simran website
         </p>
 
     </footer>
