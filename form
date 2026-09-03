@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; background-color: #f2f2f2;">
+
+    <div style="width: 400px; margin: 50px auto; padding: 30px; background-color: white; border-radius: 10px; box-shadow: 0 0 10px gray;">
+
+        <h1 style="text-align: center; color: #333;">
+            Registration Form
+        </h1>
+
+        <form>
+
+            
+            <label style="font-weight: bold;">Name:</label><br>
+            <input type="text" name="name" placeholder="Enter your name"
+                   required
+                   style="width: 95%; padding: 10px; margin: 8px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            
+            <label style="font-weight: bold;">Email:</label><br>
+            <input type="email" name="email" placeholder="Enter your email"
+                   required
+                   style="width: 95%; padding: 10px; margin: 8px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            
+            <label style="font-weight: bold;">Password:</label><br>
+            <input type="password" name="password" placeholder="Enter your password"
+                   required
+                   style="width: 95%; padding: 10px; margin: 8px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+
+            
+            <label style="font-weight: bold;">Gender:</label><br>
+
+            <input type="radio" name="gender" value="Male">
+            <label>Male</label>
+
+            <input type="radio" name="gender" value="Female">
+            <label>Female</label>
+
+            <input type="radio" name="gender" value="Other">
+            <label>Other</label>
+
+            <br><br>
+
+            
+            <label style="font-weight: bold;">Department:</label><br>
+
+            <select name="department"
+                    style="width: 100%; padding: 10px; margin: 8px 0 15px; border: 1px solid #ccc; border-radius: 5px;"
+                    required>
+
+                <option value="">Select Department</option>
+                <option value="CSE">Computer Science & Engineering</option>
+                <option value="ECE">Electronics & Communication</option>
+                <option value="EE">Electrical Engineering</option>
+                <option value="ME">Mechanical Engineering</option>
+                <option value="CE">Civil Engineering</option>
+
+            </select>
+
+            
+            <input type="checkbox" name="terms" required>
+            <label>I agree to the Terms and Conditions</label>
+
+            <br><br>
+
+            
+            <input type="submit" value="Register"
+                   style="width: 100%; padding: 12px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+
+        </form>
+
+    </div>
+
+</body>
+</html>
